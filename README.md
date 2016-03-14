@@ -16,4 +16,4 @@ Contributors:
 * References in _references.bib_
 * `$ make all` will typeset a PDF to _document.pdf_
 * `$ make clean` will clean up your build directory, leaving only the source code
-* document.tex can be opened and edited in __Texpad__ or __TeXstudio__ as well
+* _document.tex_ can be opened and edited in __Texpad__ or __TeXstudio__ as well
