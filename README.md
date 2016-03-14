@@ -4,6 +4,10 @@ LaTeX template for assignments at Nord University
 Lets you quickly create documents that follow the neccessary guidelines for turning in assignments.
 
 The template is a collaboration between students. Free to use for assignments at Nord University.
+Contributors:
+* Bjørn Tore Hagen
+* Gard Marius Guldhav
+* Morten Johansen
 
 == Usage ==
 
