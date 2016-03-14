@@ -7,8 +7,8 @@ The template is a collaboration between students. Free to use for assignments at
 
 == Usage ==
 
-* Document metadata is in ''metadata.tex''
-* Put you content in ''content.tex''
-* References in ''references.bib''
-* ''$ make all'' will typeset a PDF to ''document.pdf''
-* document.tex can be opened and edited in '''Texpad''' or '''TeXstudio''' as well
+* Document metadata is in _metadata.tex_
+* Put you content in _content.tex_
+* References in _references.bib_
+* `$ make all` will typeset a PDF to _document.pdf_
+* document.tex can be opened and edited in __Texpad__ or __TeXstudio__ as well
