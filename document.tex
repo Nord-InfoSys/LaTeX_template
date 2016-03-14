@@ -1,0 +1,28 @@
+\input{preamble.tex}
+
+
+\begin{document}
+\input{metadata.tex}
+\makeatletter
+
+\input{frontpage.tex}
+
+% Roman fonts på resten - i fall frontpage levner noe tull med fonter...
+\renewcommand{\familydefault}{\rmdefault}
+
+\input{toc.tex}
+
+\setcounter{page}{1}
+\input{content.tex}
+
+\label{LastPage}
+
+\clearpage
+
+% \bibliographystyle{plain}
+% \bibliography{refs} 
+\printbibliography
+
+\end{document}
+
+\bye
