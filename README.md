@@ -11,4 +11,5 @@ The template is a collaboration between students. Free to use for assignments at
 * Put you content in _content.tex_
 * References in _references.bib_
 * `$ make all` will typeset a PDF to _document.pdf_
+* `$ make clean` will clean up your build directory, leaving only the source code
 * document.tex can be opened and edited in __Texpad__ or __TeXstudio__ as well
