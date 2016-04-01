@@ -8,6 +8,7 @@ Contributors:
 * Bjørn Tore Hagen
 * Gard Marius Guldhav
 * Morten Johansen
+* Hans Hovde
 
 == Usage ==
 

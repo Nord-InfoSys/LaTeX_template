@@ -22,6 +22,33 @@
 
 %\DeclareLanguageMapping{norsk}{norsk-apa}
 
+% Box for kildekode
+\lstdefinestyle{Python}{
+% belowcaptionskip=1\baselineskip,
+  language=Python,
+  breaklines=true,
+  frame=single,
+  xleftmargin=\parindent,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+}
+
+% Fargelagt boks for data og info
+\usepackage[most]{tcolorbox}
+\newtcblisting[auto counter]{infoboks}[2][]{
+    fonttitle=\bfseries, 
+    colframe=gray, 
+    listing only, 
+    listing options={
+    	basicstyle=\ttfamily,
+    	language=Python
+    }, 
+    title=Info \thetcbcounter: #2, #1}
+
 
 \addbibresource{references.bib}
 % \bibliographystyle{unsrt}
