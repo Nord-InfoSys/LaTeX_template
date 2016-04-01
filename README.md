@@ -1,4 +1,4 @@
-# norduniversity-template
+# LaTeX-template for Nord University
 LaTeX template for assignments at Nord University
 
 Lets you quickly create documents that follow the neccessary guidelines for turning in assignments.
