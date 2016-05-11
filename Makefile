@@ -27,4 +27,4 @@ document.bbl: references.bib document.aux
 	$(BIBER) document
 
 clean:
-	rm -f document.aux document.bbl document.log document.run.xml document.bcf document.blg document.out document.pdf document.toc
+	rm -f document.aux document.bbl document.log document.run.xml document.bcf document.blg document.out document.pdf document.toc document.listing
