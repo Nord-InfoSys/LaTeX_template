@@ -1,4 +1,5 @@
-TEX_BASE:=/Library/TeX/texbin/
+# Try to autodetect...
+TEX_BASE=$(shell dirname `which latex`)
 
 PDFLATEX:=$(TEX_BASE)/pdflatex
 LATEX:=$(TEX_BASE)/latex
@@ -11,6 +12,8 @@ all: document.pdf
 #document.pdf: document.dvi
 #	$(DVIPDFM) -z0 document.dvi
 
+test:
+	echo $(TEX_BASE)
 
 document.pdf: document.tex content.tex frontpage.tex preamble.tex document.bbl
 	$(PDFLATEX) document.tex
