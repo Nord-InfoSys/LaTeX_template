@@ -1,8 +1,16 @@
 \input{preamble.tex}
 
+\input{metadata.tex}
+
+% Kladd vannmerke
+\ifcsname KLADD\endcsname
+  \usepackage{draftwatermark}
+  \SetWatermarkScale{9}
+  \SetWatermarkText{\KLADD}
+\else \fi
 
 \begin{document}
-\input{metadata.tex}
+
 \makeatletter
 
 \input{frontpage.tex}
