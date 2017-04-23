@@ -3,10 +3,10 @@
 \input{metadata.tex}
 
 % Kladd vannmerke
-\ifcsname KLADD\endcsname
+\ifcsname WATERMARK\endcsname
   \usepackage{draftwatermark}
-  \SetWatermarkScale{9}
-  \SetWatermarkText{\KLADD}
+  \SetWatermarkScale{\WATERMARKSIZE}
+  \SetWatermarkText{\WATERMARK}
 \else \fi
 
 \begin{document}
