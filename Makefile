@@ -15,6 +15,9 @@ all: document.pdf
 test:
 	echo $(TEX_BASE)
 
+content.tex: content/*.tex
+	tools/content.sh content > content.tex
+
 document.pdf: document.tex content.tex frontpage.tex preamble.tex document.bbl
 	$(PDFLATEX) document.tex
 
