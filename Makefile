@@ -34,3 +34,6 @@ document.bbl: references.bib document.aux
 
 clean:
 	rm -f document.aux document.bbl document.log document.run.xml document.bcf document.blg document.lof document.out document.pdf document.toc document.listing
+
+todo:
+        grep -r TODO\: content
